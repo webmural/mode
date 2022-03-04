@@ -1,10 +1,10 @@
 .flora * { color: inherit }
-::selection { background: salmon; color: indigo }
-[class].sol { background: black; color: deeppink }
-[class].hot { background: hotpink; color: black }
-[class].luna { background: mediumvioletred; color: black }
-[class].jugo { background: darkviolet; color: peachpuff }
-[class].metal { background: blueviolet; color: black }
+::selection { background: #090909; color: silver }
+[class].sol { background: #090909; color: hotpink }
+[class].hot { background: lightpink; color: #090909 }
+[class].luna { background: skyblue; color: #090909 }
+[class].jugo { background: peachpuff; color: indigo }
+[class].metal { background: thistle; color: #090909 }
 
 .mundo {
   font-family: sans-serif;
@@ -40,6 +40,10 @@
   margin: 0;
   max-width: 100%;
   flex-basis: 100%;
+}
+
+.trio {
+  list-style: none;
 }
 
 .quote {
